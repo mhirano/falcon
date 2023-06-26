@@ -4,12 +4,13 @@
 
     <div class="col-md-12">
 
+
       <div class="hero-container">
 
         <div class="hero-content wow fadeIn">
 
           <div style="padding: 20px 0px 0px 0px;">
-            <h3 class="text-center">Falcon: A wide-and-deep Onboard Active Vision System</h3>
+            <h2 class="text-center">Falcon: A Wide-and-deep Onboard Active Vision System</h2>
           </div>
           <div style="padding: 10px 0px 0px 0px;">
             <div style="text-align:center;font-size:14pt;">
@@ -37,20 +38,59 @@
 
           </div>
 
+          <br>
+          <div style="width:75%;margin-left:auto;margin-right:auto;">
+          <img class="img-responsive" src="./img/concept.png" title="title">
+          </div>
+          <br>
+
           <div class="section">
-            <h4>Abstract</h4>
+            <h3>Abstract</h3>
             <hr>
-            To be updated.
+            <p>The tradeoff between the field-of-view and resolution, of conventional on-board vision systems is primarily due to their fixed optical components. 
+              To arrive at an optimal solution, we propose a novel active vision system, called <b><i>Falcon</i></b>, 
+              that includes an electric zoom lens attached to a high-speed camera with a pair of galvanometer mirrors. 
+              This system enables high-resolution imagery of an object moving over a wide range, from near to far.
+              To ensure accurate calibration of the Falcon, we propose a new mapping-based calibration method using external cameras aside.
+              We also present a robust and lightweight visual feedback method that utilizes mapping-based calibration for object tracking.
+              We successfully demonstrated continuous and high-resolution imaging of a curved mirror on public roads while the vehicle was in motion.
+            </p>
           </div>
           <br>
+
           <div class="section">
-            <h4>Results</h4>
+            <h3>Mechanism of Falcon</h3>
             <hr />
-            To be updated.
+            <p>The Falcon system comprises a dual-axis galvanometer mirror and an electrically controllable zoom lens equipped with a high-speed camera (internal camera). As shown below, the optical axis of the internal camera was carefully aligned to hit the center of the first mirror and is parallel to the axis of the second mirror. By changing its gaze direction through a pair of reflections from the fast-tilting mirrors, the internal camera observes the foreground scene with variable zoom ratio. <br><br>
+            In addition to the internal camera, two wide-angle, high-resolution cameras (external cameras) were mounted on the Falcon system. These cameras observe the foreground scene to locate areas in environments where close observations are required.</p>
+            <div style="width:75%;margin-left:auto;margin-right:auto;">
+              <img class="img-responsive" src="./img/prototype.png" title="title">
+            </div>
+          </div>
+          <br>
+
+          <div class="section">
+            <h3>Demo</h3>
+            <hr />
+            <p>Imagery by the Falcon and the external camera.</p>
+            <div style="width:100%;margin-left:auto;margin-right:auto;">
+              <img class="img-responsive" src="./img/curve-mirror-tracking.png" title="title">
+            </div>
+            <br>
+            <p>Here is a side-by-side comparison with a static, high-resolution camera image.</p>
+            <div style="width:75%;margin-left:auto;margin-right:auto;">
+              <img class="img-responsive" src="./img/comparison.png" title="title">
+            </div>
           </div>
           <br>
           <div class="section">
-            <h4>Citation</h4>
+            <h3>Video</h3>
+            <hr />
+            <iframe class="youtube-video" src="https://www.youtube.com/embed/5kW0RtcJZC8" title="YouTube video" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+          </div>
+          
+          <div class="section">
+            <h3>Citation</h3>
             <hr />
             <div style="text-align:left;font-size:8px;">
               <pre><code>
