@@ -320,6 +320,12 @@ button.btn, input.btn {
   width: 100%;
 }
 
+/* Added for embedded video */
+video {
+  display: block;
+  margin: auto;
+}
+
 /*--------------------------------------------------------------
 	4.0 Footer
 --------------------------------------------------------------*/
