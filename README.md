@@ -1,12 +1,9 @@
-## Project page for Falcon
+[Project page](https://mhirano.github.io/falcon/) for the paper:  
+>Masahiro Hirano, Yuji Yamakawa: ***Falcon: A Wide-and-deep Onboard Active Vision System***, IROS2023.
 
-Masahiro Hirano, Yuji Yamakawa: **Falcon: A Wide-and-deep Onboard Active Vision System**, IROS2023.
 
-https://mhirano.github.io/falcon
+Contact:
+Masahiro Hirano (The University of Tokyo) <mhirano_at_iis.u-tokyo.ac.jp>
 
-## Credit
 Website base design: [Phantom for Jekyll](http://jamigibbs.github.io/phantom/)
-
-## Contact
-Masahiro Hirano, The University of Tokyo  
-E-mail: mhirano_at_iis.u-tokyo.ac.jp
+(Customized for research project page is available: https://github.com/mhirano/project-page-template-phantom)
